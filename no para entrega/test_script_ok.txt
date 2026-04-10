@@ -1,0 +1,25 @@
+## Uc3mshell P2
+# comando simple
+/bin/echo hola
+
+# mycalc interno
+mycalc 1 + 1
+
+# mycp externo
+mycp test_input.txt test_output.txt
+
+# redirecciones simples
+/bin/cat < test_input.txt > test_copy.txt !> test_err.txt
+
+# background simple
+/bin/sleep 1 &
+
+# pipes (hasta 3)
+/bin/cat test_input.txt | /usr/bin/wc -l
+/bin/cat test_input.txt | /usr/bin/tr a-z A-Z | /usr/bin/wc -c > test_pipe_out.txt
+
+# caso echo con comillas
+/bin/echo "Hola mundo"
+/bin/echo Hola mundo
+
+exit 0

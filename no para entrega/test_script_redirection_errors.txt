@@ -1,0 +1,5 @@
+## Uc3mshell P2
+/bin/echo antes
+/bin/cat <
+/bin/echo despues
+exit 0

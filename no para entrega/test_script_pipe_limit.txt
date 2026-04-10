@@ -1,0 +1,4 @@
+## Uc3mshell P2
+/bin/echo a | /usr/bin/tr a-z A-Z | /usr/bin/tr A-Z a-z | /usr/bin/wc -c
+/bin/echo sigue_despues
+exit 0
